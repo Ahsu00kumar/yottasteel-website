@@ -10,8 +10,8 @@ body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-    background-color: #000;
-    color: #fff;
+    /* background-color: #000; */
+    /* color: #fff; */
 }
 
 /* for header css */
@@ -19,7 +19,8 @@ header {
     position: sticky;
     top: 0;
     z-index: 5;
-    background-color: #000000;
+    background-color: #ffffff;
+    border-bottom: 15px solid #02519f;
 }
 
 .navbar .for_m_header {
@@ -37,8 +38,8 @@ header {
 
 .navbar-expand-lg .navbar-nav .nav-link {
     font-family: "Bebas Neue", sans-serif;
-    font-size: 1.5rem;
-    color: #ffffffad;
+    font-size: 1.55rem;
+    color: #3f3f3f;
     font-weight: 400;
     padding: 5px 8px;
 }
@@ -48,22 +49,24 @@ header {
     /* border-width: 80%; */
     color: #fff;
     transition: 0.15s ease-in-out;
-    background-color: #34b7fa;
+    background-color: #ce1125;
 }
 
 #home {
     position: relative;
-
+    border-bottom: 15px solid #02519f;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 
 }
 
 .about {
 
-    background-color: #090909;
+    background-color: #ffffff;
 }
 
-.about .border_in_top {
-    margin: 3rem 0px;
+.about .border_in_top { 
     padding: 3rem 0px;
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
@@ -77,23 +80,26 @@ header {
 }
 
 .for_text-absolute {
-    position: absolute;
-    margin-top: -14rem;
-    margin-left: 8rem;
+    /* position: absolute; */
+    padding-top: 4rem;
+    /* margin-left: 8rem; */
 }
 
 .for_text-absolute h1 {
     font-family: "Bebas Neue", sans-serif;
     font-size: 6rem;
     margin-bottom: -0.5rem;
-    color: #34b7fa;
+    color: #ce1125;
+    letter-spacing: 3px;
+    font-weight: 500;
 }
 
 .for_text-absolute h4 {
     font-family: "Bebas Neue", sans-serif;
     font-size: 3rem;
     letter-spacing: 15px;
-    color: #ffffff;
+    color: #ce1125;
+    font-weight: 500;
 }
 
 .product_background {
