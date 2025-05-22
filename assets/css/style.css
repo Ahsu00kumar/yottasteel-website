@@ -33,12 +33,12 @@ header {
 
 
 .navbar-expand-lg .navbar-nav .nav-item {
-    padding: 30px 15px;
+    padding: 20px 15px;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
     font-family: "Bebas Neue", sans-serif;
-    font-size: 1.55rem;
+    font-size: 1.4rem;
     color: #3f3f3f;
     font-weight: 400;
     padding: 5px 8px;
@@ -84,6 +84,7 @@ header {
     font-size: 1.43rem;
     font-weight: 300;
     line-height: 32px;
+    text-align: justify;
 }
 
 .for_text-absolute {
@@ -171,6 +172,17 @@ header {
     font-weight: 500;
 }
 
+.contact_details>label {
+    border: 2px solid #222;
+    padding: 0.75rem 1.3rem;
+    background-color: #fff;
+    margin-bottom: 1rem;
+}
+
+.contact_details label span {
+    font-size: 1.7rem;
+    padding: 0px 0.15rem;
+}
 
 .contact_form {
     background-color: #02519f;
@@ -219,6 +231,21 @@ footer {
     font-family: "Roboto", sans-serif;
     text-align: center;
     font-size: 1.4rem;
+    color: #02519f;
+    font-weight: 300;
+}
+
+.inquiry {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #fff;
+
+}
+
+.inquiry span {
+    font-size: 2.3rem;
+    font-weight: 400;
 }
 
 .contact_info {
@@ -240,4 +267,113 @@ footer {
     color: #8d8d8d;
     font-weight: 500;
     text-decoration: none;
+}
+
+@media (max-width:992px) {
+    .product_slider_item .product_heading {
+        gap: 2px;
+    }
+
+    .for_text-absolute h1 {
+        font-size: 5rem;
+    }
+
+    .for_text-absolute-sub h4 {
+        font-size: 4rem;
+    }
+
+    #contact .contact_form {
+        margin-bottom: 5rem;
+    }
+
+    .for_about_section {
+        padding: 0;
+    }
+}
+
+@media (max-width:768px) {
+    .for_text-absolute h1 {
+        font-size: 3rem;
+    }
+
+    .for_text-absolute h4 {
+        font-size: 2rem;
+        letter-spacing: 8px;
+    }
+
+    .for_text-absolute-sub h4 {
+        font-size: 3rem;
+    }
+
+    .for_text-absolute-sub h4 {
+        font-weight: 600;
+    }
+
+    .spacing {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width:576px) {
+    .for_text-absolute {
+        top: 3rem;
+    }
+
+    .for_text-absolute h1 {
+        font-size: 2rem;
+    }
+
+    .for_text-absolute h4 {
+        font-size: 1.4rem;
+        letter-spacing: 5px;
+    }
+
+    .for_text-absolute-sub {
+        bottom: 2rem;
+    }
+
+
+
+    .for_text-absolute-sub h4 {
+        font-size: 1.5rem;
+        letter-spacing: 10px;
+        font-weight: 600;
+    }
+
+    .spacing {
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+
+    .product_slider_item .product_heading span {
+        font-size: 1.5rem;
+    }
+
+    .for_m_header .navbar-brand img {
+        height: 50px;
+    }
+
+    .about .border_in_top p {
+        font-size: 1.1rem;
+        line-height: 28px;
+    }
+
+    .border_in_top .row .col-lg-5 {
+        padding: 1rem !important;
+    }
+
+    .product_background#product {
+        padding-top: 0rem !important;
+    }
+
+    .inquiry span {
+        font-size: 1.3rem;
+    }
+
+    .contact_form {
+        padding: 20px
+    }
+    .contact_info label+a{
+        font-size: 1.2rem;
+    }
 }
