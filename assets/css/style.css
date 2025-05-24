@@ -269,6 +269,38 @@ footer {
     text-decoration: none;
 }
 
+@media (max-width:1200px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 1.2rem;
+    }
+
+    .product_slider_item .product_heading {
+        gap: 3px
+    }
+}
+
+@media (max-width:1024px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 1.05rem;
+    }
+
+    .product_slider_item .product_heading {
+        gap: 1px
+    }
+    .navbar-expand-lg .navbar-nav .nav-item{
+        padding: 10px 10px;
+    }
+    .product_slider_item .product_heading span{
+        font-size:1.7rem ;
+    }
+    .for_m_header .navbar-brand img{
+        height:60px
+    }
+    .inquiry span{
+        font-size: 1.9rem;
+    }
+}
+
 @media (max-width:992px) {
     .product_slider_item .product_heading {
         gap: 2px;
@@ -373,7 +405,8 @@ footer {
     .contact_form {
         padding: 20px
     }
-    .contact_info label+a{
+
+    .contact_info label+a {
         font-size: 1.2rem;
     }
 }
